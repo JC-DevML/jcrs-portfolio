@@ -21,7 +21,8 @@
     'OpenCV',
     'Pytorch',
     'Tensorflow',
-    'AWS'
+    'AWS',
+    'ViteJS'
 
 ]
 

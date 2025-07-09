@@ -1,62 +1,85 @@
-import one from '../assets/svg/projects/one.svg'
-import two from '../assets/svg/projects/two.svg'
-import three from '../assets/svg/projects/three.svg'
-import four from '../assets/svg/projects/four.svg'
-import five from '../assets/svg/projects/five.svg'
-import six from '../assets/svg/projects/six.svg'
-import seven from '../assets/svg/projects/seven.svg'
-import eight from '../assets/svg/projects/eight.svg'
-import project1 from '../assets/png/project1.png'
-import project2 from '../assets/png/project2.png'
-import project3 from '../assets/png/project3.png'
-import project4 from '../assets/png/project4.png'
-import project5 from '../assets/png/project5.png'
+import project1 from '../assets/png/posturevision.png'
+import project2 from '../assets/png/doctorhutcheson.png'
+import project3 from '../assets/png/vlmain.png'
+import project4 from '../assets/png/vlproperty.png'
+import project5 from '../assets/png/vlholdings.png'
+import project6 from '../assets/png/vlconstruction.png'
+import project7 from '../assets/png/rrfacerecognition.png'
+import project8 from '../assets/png/roboexchange.png'
+
 
 export const projectsData = [
     {
         id: 1,
         projectName: ' Posture Vision',
-        projectDesc: 'A health and wellness application for chiropractic services that access patients condition using Artificial Intelligence.',
-        tags: ['Flask', 'HTML' ,'CSS', 'Javascript', 'Python', 'AWS', 'PostgreSQL', 'Artificial Intelligence', 'Computer Vision'],
+        projectDesc: 'An AI-powered posture analysis platform that uses computer vision to assess spinal alignment and body mechanics in real time. It combines custom-trained keypoint models, face emotion detection, and health insights, all deployed via a scalable cloud-based infrastructure.',
+        tags: ['Python', 'FastAPI', 'Node.js', 'Express', 'Typescript', 'Vite', 'React', 'Tailwind CSS', 'Redis', 'PostgreSQL', 'MongoDB', 'AWS EC2', 'AWS RDS', 'AWS S3', 'Go-High-Level', 'Docker',],
         code: '',
-        demo: 'https://www.figma.com/design/eB3DOhVi0q31ErXFFPZ6WG/Mobile-mockup-2?node-id=0-1&node-type=canvas&t=VGsjskWR8uvIITBA-0',
+        demo: 'https://posture.vision',
         image: project1
     },
     {
         id: 2,
-        projectName: 'Doctor Hutcheson Web Application',
-        projectDesc: 'A professional website application for a health and wellness chiropractic business that offers services using wordpress',
-        tags: ['WordPress', 'HTML', 'CSS','Javascript', 'PHP'],
+        projectName: 'Doctor Hutcheson',
+        projectDesc: 'A modern chiropractic website featuring React and Tailwind CSS, integrated with Go-High-Level for automated scheduling, appointment management, and email workflows, redesigned from WordPress to improve speed and mobile responsiveness.',
+        tags: ['React', 'Next.js', 'Tailwind CSS','Go-High-Level'],
         code: '',
         demo: 'https://doctorhutcheson.com/#:~:text=With%20an%20instinct%20for%20innovation,%20Dr.',
         image: project2
     },
     {
         id: 3,
-        projectName: 'RR Face Recognition',
-        projectDesc: 'A face recognition system that recognize employees and greet them according to there achievements and  time & date using generative greeting',
-        tags: ['React', 'Material UI', 'Express', "MySQL","NodeJS","CSS","Python", "Artificial Intelligence"],
+        projectName: 'Victor Legal',
+        projectDesc: 'A legal services website initially built on WordPress, later migrated to a Python Flask backend with a React frontend to enhance functionality, design, and mobile responsiveness. Improvements in SEO and user experience led to a 25% increase in client engagement.',
+        tags: ['React', 'Typescript', "Python", "Flask", 'Tailwind CSS'],
         code: '',
-        demo: 'https://www.figma.com/design/OTZIKJU3xIkqlyweuINrk7/Face-Recognition-System?node-id=0-1&t=9CW5ZAEF3lrf1Dtc-1',
+        demo: 'https://www.victorlegal.com.au',
         image: project3
     },
     {
         id: 4,
-        projectName: 'Robo Exchange',
-        projectDesc: 'TA scripting system that allows to create, request and propose  project using wordpress for the frontend and python for the backend',
-        tags: ['LDAP3', 'WordPress', 'PostgreSQL', 'Python'],
+        projectName: 'Victor Legal Property',
+        projectDesc: 'A specialized conveyancing web platform designed for legal quote automation, document generation, and streamlined client onboarding. Includes a React frontend, Flask backend, and PostgreSQL database tailored for property transactions.',
+        tags: ['React', 'Typescript', "Python", "Flask", 'Tailwind CSS'],
         code: '',
-        demo: 'https://www.figma.com/design/uiO6BjYgZtbRPXKaminTig/RoboExchange?node-id=0-1&t=n3o0QLilZVdQT7Yx-1',
+        demo: 'https://www.victorlegalproperty.com.au',
         image: project4
     },
     {
         id: 5,
-        projectName: ' Achieve Without Borders Web Applications',
-        projectDesc: 'A professional website application for a IT and services company that offers product and services using wordpress.',
-        tags: ['WordPress', 'HTML', 'CSS','Javascript', 'PHP'],
+        projectName: 'Victor Legal Holdings',
+        projectDesc: 'An internal legal operations platform under Victor Legal, focused on corporate management, document handling, and interdepartmental coordination. Built with a Flask backend and React frontend, it supports role-based access, task tracking, and centralized communication tools for streamlined internal workflows.',
+        tags: ['React', 'Typescript', "Python", "Flask", 'Tailwind CSS'],
         code: '',
-        demo: 'https://achievewithoutborders.com/',
+        demo: 'https://www.holdings.victorlegal.com.au',
         image: project5
+    },
+    {
+        id: 6,
+        projectName: 'Victor Legal Construction & Litigation',
+        projectDesc: 'A specialized platform under Victor Legal designed for managing construction-related legal disputes and litigation processes. Features include structured case intake, automated legal documentation, and workflow routing, built on a Flask backend with a React frontend.',
+        tags: ['React', 'Typescript', "Python", "Flask", 'Tailwind CSS'],
+        code: '',
+        demo: 'https://www.litigation.victorlegal.com.au',
+        image: project6
+    },
+    {
+        id: 7,
+        projectName: 'RR Face Recognition',
+        projectDesc: 'A smart facial recognition system for real-time employee validation and personalized greetings, featuring emotion-aware responses and contextual logic based on achievements and check-in times.',
+        tags: ['React', 'Material UI', 'Express', "MySQL", "Node.JS", "CSS", "Python", "Flask", 'LDAP3'],
+        code: '',
+        demo: '',
+        image: project7
+    },
+    {
+        id: 8,
+        projectName: 'Robo Exchange',
+        projectDesc: 'A dynamic scripting and automation system where users can create, run, and manage custom scripts and workflows.',
+        tags: ['LDAP3', 'React', 'PostgreSQL', 'Python', 'Typescript', 'Tailwind CSS'],
+        code: '',
+        demo: '',
+        image: project8
     },
     
 ]
